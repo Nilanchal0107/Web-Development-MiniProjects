@@ -1,0 +1,117 @@
+body{
+    text-align: center;
+    /* background-image: url("background.jpg"); */
+    background: linear-gradient(blue, pink);
+    background-size: cover;
+    background-position: center;
+    color: whitesmoke;
+    text-shadow: 0px 0px 3px black;
+    
+    
+}
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#wish {
+    font-family: "Happy Monkey", cursive;
+    font-weight: bolder; 
+    font-size: 50px;
+    font-style: normal;
+}
+
+#birthdayboy {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    border: 6px solid palevioletred;
+}
+
+#age {
+    background-color: palevioletred;
+    margin: 30px 0 -10px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#date {
+    background-color: palevioletred;
+    padding: 10px;
+    border-radius: 5px;
+
+}
+
+.text1 {
+    font-size: 30px;
+    margin-top: 50px;
+    margin-bottom: -15px;
+}
+
+.text2 {
+    margin-bottom: 15px;
+}
+
+.gift {
+    background-image: url("gift.jpg");
+    background-position: center;
+    background-size: cover;
+    border: 6px solid red;
+    border-radius: 10px;
+    margin: 0px auto;
+    width: 400px;
+    height: 400px;
+}
+
+#wrap1:hover {
+    cursor: pointer;
+    background-image: url("wrap1.gif");
+} 
+
+#line1 {
+    margin: 50px 0px 20px 0px;
+    font-size: 30px;
+}
+
+#wrap2:hover {
+    cursor: pointer;
+    background-image: url("wrap2.gif");
+}
+
+#wrap3:hover {
+    cursor: pointer;
+    background-image: url("wrap3.gif");
+}
+
+#wrap4:hover {
+    cursor: pointer;
+    background-image: url("wrap4.gif");
+}
+
+#wrap5 {
+    height: 200px;
+}
+
+#wrap5:hover {
+    cursor: pointer;
+    background-image: url("wrap5.gif");
+}
+
+#lastline {
+    width: 400px;
+    font-style: italic;
+    font-size: 24px;
+    margin: 40px auto 20px auto;
+}
+
+a {
+    color: aliceblue;
+    text-shadow: 0 0 5px black;
+
+}
+
+a:hover {
+    color: aliceblue;
+    text-shadow: 0 0 20px black;
+}
