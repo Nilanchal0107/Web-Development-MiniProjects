@@ -1,0 +1,110 @@
+body {
+    text-align: center;
+    color: #090c9b;
+    text-shadow: 0px 0px 2px blueviolet;
+}
+
+.mumbai {
+    background-image: url("Mumbai.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    border-radius: 8px;
+
+    height: 200px;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.activities {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #b4c5e4 ;
+    border-radius: 5px;
+    margin-bottom: 40px;
+}
+
+.card {
+    border: 10px;
+    margin: 10px;
+    color: #3c3744;
+    text-shadow: 0px 0px 15px #fbfff1;
+}
+
+.activity_img {
+    width:75px;
+    height:75px;
+    border-radius: 50%;
+    border: 2px solid black;
+}
+
+.activity_img:hover {
+    width: 100px;
+    height: 100px;
+}
+
+#line1 {
+    background-color: #090c9b;
+    padding:5px 10px;
+    color: #fbfff1;
+    font-family: "Happy Monkey", "San-serif";
+}
+
+#line2 {
+    padding:5px 10px;
+    color: #fbfff1;
+    text-shadow: 10px 10px 10px black;
+    font-family: "Happy Monkey", "San-serif";
+}
+
+#bold {
+    font-size: larger;
+    font-weight: 900;
+}
+
+.businesscard {
+    box-shadow: 0 8px 20px rgba(0,0,0,0.25);
+    width: 50%;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #6bde7a;
+    border-radius: 10px;
+    color: #3c3744;
+    text-shadow: none;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-bottom: 5px solid rgba(5, 69, 29, 0.958);
+}
+
+.businesscard img {
+    width: 120px;
+    height: 120px;
+    background-color: #ddd;
+    object-fit: cover;
+}
+
+.businesscard h2 {
+    margin: 10px 0 15px 0;
+}
+
+.businesscard h3 {
+    margin: 25px 0;
+    color: #090c9b
+}
+
+.businesscard p {
+    margin: 25px 0;
+    line-height: 1.5;
+}
+
+
+
+
