@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #e6e6e6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.card {
+    width: 360px;
+    background: white;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
+
+/* Top Purple Section */
+.top {
+    background: #6c4df4;
+    color: white;
+    text-align: center;
+    padding: 30px 20px;
+}
+
+.top h1 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+#number-box {
+    width: 100px;
+    height: 70px;
+    border: 2px solid rgba(255,255,255,0.4);
+    background: #6c4df4;
+    color: white;
+    text-align: center;
+    margin: 0 auto 20px;
+    font-size: 36px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 6px;
+}
+
+button {
+    padding: 10px 25px;
+    border: none;
+    border-radius: 6px;
+    background: white;
+    color: #555;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* Bottom Section */
+.bottom {
+    padding: 20px;
+}
+
+.box {
+    background: #f4f4f4;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.box h2 {
+    font-size: 16px;
+    margin-bottom: 8px;
+    color: #333;
+}
+
+.box p {
+    font-size: 14px;
+    color: #555;
+}
