@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gift Genie 🧞</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="app-container">
+      <header class="app-header">
+        <div class="title-group">
+          <img src="assets/genie.svg" alt="Genie" class="genie-icon-img" />
+          <h1>Gift Genie</h1>
+        </div>
+      </header>
+
+      <main class="main-content">
+        <form id="gift-form" class="gift-form">
+          <div class="input-section">
+            <div class="input-wrapper">
+              <textarea
+                id="user-input"
+                placeholder="e.g., My friend who loves hiphop music has a birthday coming up in 3 days. 40-60 bucks budget. I live in..."
+              ></textarea>
+            </div>
+          </div>
+
+          <div class="lamp-container">
+            <button
+              type="submit"
+              id="lamp-button"
+              class="lamp-btn"
+              aria-label="Rub the Lamp"
+            >
+              <span class="lamp-icon">
+                <img
+                  src="assets/lamp.svg"
+                  alt="Magic Lamp"
+                  class="lamp-icon-img"
+                />
+              </span>
+              <span class="lamp-text">Rub the Lamp</span>
+            </button>
+          </div>
+        </form>
+
+        <section class="output-section">
+          <div id="output-container" class="hidden">
+            <div id="output-content"></div>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <script type="module" src="./index.js"></script>
+  </body>
+</html>
