@@ -1,0 +1,170 @@
+<html lang="en">
+
+<head>
+  <title>PrintForge</title>
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+
+<body>
+
+<!-- NAVBAR START -->
+<header className="w-full bg-white">
+  <nav className="flex justify-between px-6 py-4 pr-2">
+    <a href="index.html">
+      <div className="relative cursor-pointer">
+
+        <img
+          src="/img/printforge-logo.svg"
+          alt="PrintForge Logo"
+          className="w-[200px] h-auto hidden md:block"
+        />
+
+        <img
+          src="/img/printforge-logo-icon.svg"
+          alt="PrintForge Logo"
+          className="w-[40px] h-auto block md:hidden"
+        />
+      </div>
+    </a>
+    <ul className="flex items-center gap-1.5">
+      <li className="text-sm uppercase">
+        <a
+          className="px-4 py-2 transition-colors rounded-md cursor-pointer hover:text-orange-400 text-gray-700 text-orange-400"
+          href="3d-models.html">3D Models</a>
+      </li>
+      <li className="text-sm uppercase">
+        <a className="px-4 py-2 transition-colors rounded-md cursor-pointer hover:text-orange-400 text-gray-700"
+           href="about.html">About</a>
+      </li>
+    </ul>
+  </nav>
+</header>
+<!-- NAVBAR END -->
+
+<!-- 3D MODELS PAGE START -->
+<div className="relative flex flex-col min-h-screen md:flex-row">
+
+  <!-- CATEGORIES NAV START -->
+  <aside
+    className="sticky top-0 z-10 w-full bg-white border-b border-gray-200 md:fixed md:w-64 md:top-1/2 md:-translate-y-1/2 md:border-none">
+    <div className="relative">
+      <nav className="w-full overflow-x-auto md:overflow-visible scrollbar-hide">
+        <ul className="flex px-4 py-3 whitespace-nowrap md:flex-col md:p-0 md:space-x-0 md:space-y-3">
+          <li className="text-sm uppercase">
+            <a className="px-4 py-2 transition-colors rounded-md cursor-pointer hover:text-orange-400 text-gray-700"
+               href="3d-models.html">All</a>
+          </li>
+
+          <li className="text-sm uppercase">
+            <a className="px-4 py-2 transition-colors rounded-md cursor-pointer hover:text-orange-400 text-gray-700"
+               href="category.html">3D Printer</a>
+          </li>
+
+          <li className="text-sm uppercase">
+            <a className="px-4 py-2 transition-colors rounded-md cursor-pointer hover:text-orange-400 text-gray-700"
+               href="category.html">Art</a>
+          </li>
+
+          <li className="text-sm uppercase">
+            <a className="px-4 py-2 transition-colors rounded-md cursor-pointer hover:text-orange-400 text-gray-700"
+               href="category.html">Education</a>
+          </li>
+
+          <li className="text-sm uppercase">
+            <a className="px-4 py-2 transition-colors rounded-md cursor-pointer hover:text-orange-400 text-gray-700"
+               href="category.html">Fashion</a>
+          </li>
+
+          <li className="text-sm uppercase">
+            <a className="px-4 py-2 transition-colors rounded-md cursor-pointer hover:text-orange-400 text-gray-700"
+               href="category.html">Hobby & DIY</a>
+          </li>
+
+          <li className="text-sm uppercase">
+            <a className="px-4 py-2 transition-colors rounded-md cursor-pointer hover:text-orange-400 text-gray-700"
+               href="category.html">Household</a>
+          </li>
+
+          <li className="text-sm uppercase">
+            <a className="px-4 py-2 transition-colors rounded-md cursor-pointer hover:text-orange-400 text-gray-700"
+               href="category.html">Miniatures</a>
+          </li>
+
+          <li className="text-sm uppercase">
+            <a className="px-4 py-2 transition-colors rounded-md cursor-pointer hover:text-orange-400 text-gray-700"
+               href="category.html">Props & Cosplay</a>
+          </li>
+
+          <li className="text-sm uppercase">
+            <a className="px-4 py-2 transition-colors rounded-md cursor-pointer hover:text-orange-400 text-gray-700"
+               href="category.html">Tools</a>
+          </li>
+
+          <li className="text-sm uppercase">
+            <a className="px-4 py-2 transition-colors rounded-md cursor-pointer hover:text-orange-400 text-gray-700"
+               href="category.html">Toys & Games</a>
+          </li>
+
+        </ul>
+      </nav>
+      <!--Fading edge/gradient for horizontal scroll hint on mobile-->
+      <div
+        className="absolute top-0 right-0 w-8 h-full pointer-events-none bg-gradient-to-l from-white to-transparent md:hidden"/>
+    </div>
+  </aside>
+  <!-- CATEGORIES NAV END -->
+
+  <!-- 3D MODEL CONTENT START -->
+  <main className="flex-1 p-4 md:ml-64">
+
+    <!-- SINGLE MODEL START -->
+    <div className="container max-w-6xl px-4 py-8 mx-auto">
+      <article className="grid grid-cols-1 gap-8 lg:grid-cols-2">
+        <figure className="relative overflow-hidden rounded-lg shadow-lg aspect-square">
+          <img
+            src="/img/placeholder.png"
+            alt="3D model of MODEL NAME"
+            className="absolute inset-0 object-cover w-full h-full"
+          />
+        </figure>
+
+        <section className="flex flex-col justify-center h-full">
+          <div
+            className="flex items-center mb-2 text-2xl text-gray-600"
+            role="status"
+            aria-label="Likes count"
+          >
+            <span className="font-light" aria-label="model likes">&hearts; 1847</span>
+          </div>
+          <h1 className="mb-6 text-4xl font-bold">Articulated Dragon</h1>
+          <span
+            className="inline-block bg-transparent border border-gray-400 rounded-full px-3 py-1 text-sm text-gray-800 mb-6 w-fit"
+            role="status"
+            aria-label="Category"
+          >
+            Toys & Games
+          </span>
+
+          <div className="mb-6 prose prose-lg max-w-none">
+            <p className="leading-relaxed text-gray-700">
+              A detailed dragon model with movable joints and wings
+            </p>
+          </div>
+
+          <footer className="text-sm text-gray-500">
+            <time dateTime="2023-03-16">
+              Added on 3/16/2023
+            </time>
+          </footer>
+        </section>
+      </article>
+    </div>
+    <!-- SINGLE MODEL END -->
+
+  </main>
+  <!-- 3D MODELS CONTENT END -->
+</div>
+<!-- 3D MODELS PAGE END -->
+
+</body>
+</html>

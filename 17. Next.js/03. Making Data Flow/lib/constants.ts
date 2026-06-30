@@ -1,0 +1,1 @@
+export const MODELS_PER_PAGE = 12
