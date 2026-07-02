@@ -115,69 +115,113 @@ This repository contains my solutions, projects, and notes from **Scrimba's Fron
 Web-Development-MiniProjects/
 │
 ├── 01. HTML and CSS Fundamentals/
-│   └── README.md
+│   ├── 01. Business Card/
+│   ├── 02. Space Exploration Site/
+│   ├── 03. Birthday Gift Website/
+│   └── 04. Solo Project - Hometown Exploration Site/
 │
 ├── 02. JavaScript Fundamentals/
-│   └── README.md
+│   ├── 01. Counter App/
+│   ├── 02. JavaScript Challenges Part-1/
+│   ├── 03. Solo Project - Basketball Scoreboard/
+│   ├── 04. Blackjack Game/
+│   ├── 05. Javascript Challenges Part-2/
+│   ├── 06. Solo Project - Password Generator/
+│   ├── 07. Chrome Extension/
+│   ├── 08. Javascript Challenges Part-3/
+│   └── 09. Solo Project - Unit Converter/
 │
 ├── 03. Accessible Development/
-│   └── README.md
+│   └── Synet Eats/
 │
 ├── 04. Essential CSS/
-│   └── README.md
+│   ├── 01. NFT Site/
+│   ├── 02. Portfolio/
+│   ├── 03. Solo Project - Instagram Clone/
+│   └── 04. Coworking Space Site/
 │
 ├── 05. Essential JavaScript/
-│   └── README.md
+│   ├── 01. Cookie Consent/
+│   ├── 02. Meme App/
+│   ├── 03. X Clone/
+│   ├── 04. Mini Projects/
+│   └── 05. Solo Project - Restaurant Ordering App/
 │
 ├── 06. Responsive Design/
-│   └── README.md
+│   ├── 01. Responsive Layouts/
+│   ├── 02. Build a Product Page/
+│   ├── 03. CSS Grid/
+│   └── 04. Solo Project - Learning Journal/
 │
 ├── 07. APIs and Async JavaScript/
-│   └── README.md
+│   ├── 01. Intro to APIs/
+│   ├── 02. URLs and REST/
+│   ├── 03. Solo Project - Color Scheme Generator/
+│   ├── 04. Async JavaScript/
+│   ├── 05. Solo Project - Movie Watchlist/
+│   └── 06. Capstone Project/
 │
 ├── 08. AI Engineering/
-│   └── README.md
+│   ├── 01. AI Engineering Fundamentals/
+│   ├── 02. Solo Project - Translation App/
+│   ├── 03. RAG and Vector Databases/
+│   ├── 04. Solo Project - Movie AI App/
+│   └── 05. AI Agents/
 │
 ├── 09. Node.js/
-│   └── README.md
+│   ├── 01. Build a Node API/
+│   ├── 02. Build a Fullstack Node App/
+│   └── 03. Solo Project - GoldDigger/
 │
 ├── 10. Databases/
-│   └── README.md
+│   ├── 01. Intro to Databases/
+│   ├── 02. Writing SQL Queries/
+│   └── 03. Creating and Joining Tables/
 │
 ├── 11. Express.js/
-│   └── README.md
-│
-├── 12. User Interface Design/
-│   └── README.md
+│   ├── 01. Build an Express API/
+│   ├── 02. Build a FullStack Express App/
+│   └── 03. Authentication/
 │
 ├── 13. React.js Fundamentals/
-│   └── README.md
-│
-├── 14. Testing/
-│   └── README.md
+│   ├── 01. Static Pages/
+│   ├── 02. Solo Project - Business Card/
+│   ├── 03. Data-Driven React/
+│   ├── 04. React State/
+│   ├── 05. Side Effects/
+│   ├── 06. Capstone Project #1 - Tenzies/
+│   ├── 07. Capstone Project #2 - Assembly EndGame/
+│   └── 08. Solo Project - Quiz App/
 │
 ├── 15. Advanced React.js/
-│   └── README.md
+│   ├── 01. Reusability/
+│   ├── 02. Performance/
+│   ├── 03. Solo Project - Component Library++/
+│   ├── 04. Routing/
+│   ├── 05. Persistense/
+│   └── 06. Authentication/
 │
 ├── 16. TypeScript/
-│   ├── 01. TypeScript Fundamentals/  ← cheatsheet-style README
-│   ├── 02. TypeScript in React/      ← Assembly: Endgame project
-│   └── 04. TypeScript & Express/    ← Pet Shelter REST API
+│   ├── 01. TypeScript Fundamentals/
+│   ├── 02. TypeScript in React/
+│   ├── 03. Solo project - Typed Tenzies/
+│   └── 04. TypeScript & Express/
 │
 ├── 17. Next.js/
-│   ├── 01. Build a Next.js App/              ← PrintForge — routing + layouts
-│   ├── 02. Rendering Strategies and More/   ← SSG, SSR, ISR, search forms
-│   └── 03. Making Data Flow/                ← SQLite, search, sort, pagination
+│   ├── 01. Build a Next.js App/
+│   ├── 02. Rendering Strategies and More/
+│   └── 03. Making Data Flow/
 │
 ├── README.md                     ← this file
-├── README_STYLE_GUIDE.md         ← documentation style rules for this repo
 ├── certificate-frontend.png      ← Scrimba Frontend Developer Path certificate
 └── certificate-fullstack.png     ← Scrimba Fullstack Developer Path certificate
 ```
 
+> **⚠️ Disclaimer:** Solo projects (marked as *Solo project* in the Key Projects table) will be built and documented in the future.
+
 Each module folder contains:
 - **Project source files** — HTML, CSS, JS, TS, TSX as appropriate
-- **A detailed `README.md`** following the [style guide](./README_STYLE_GUIDE.md)
+- **A detailed `README.md`** with project notes and solutions
 - **Challenge solutions** and **notes** where applicable
 
 ---
@@ -235,9 +279,9 @@ Details will be added once the project is completed.
 
 # 9. Course Links
 
-* 🖥️ [Scrimba Frontend Developer Path](https://scrimba.com/learn/frontend)
-* 🖥️ [Scrimba Fullstack Developer Path](https://scrimba.com/fullstack-path-c0)
-* 💾 [Official Scrimba GitHub](https://github.com/scrimba/learn-fullstack)
+* 🖥️ [Scrimba Frontend Developer Path](https://scrimba.com/frontend-path-c0j)
+* 🖥️ [Scrimba Fullstack Developer Path](https://scrimba.com/fullstack-path-c0fullstack)
+* 💾 [Official Scrimba GitHub](https://github.com/scrimba/learn-fullstack-development)
 
 ---
 
