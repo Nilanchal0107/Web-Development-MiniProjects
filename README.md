@@ -75,13 +75,7 @@ This repository contains my solutions, projects, and notes from **Scrimba's Fron
 - [x] **14. Testing**
 - [x] **15. Advanced React.js**
 - [x] **16. TypeScript**
-  - [x] 01. TypeScript Fundamentals
-  - [x] 02. TypeScript in React
-  - [x] 04. TypeScript & Express
 - [x] **17. Next.js**
-  - [x] 01. Build a Next.js App
-  - [x] 02. Rendering Strategies and More
-  - [x] 03. Making Data Flow
 
 ---
 
